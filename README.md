@@ -25,6 +25,7 @@ MISO: 19
 SCK: 18
 SS: 5
 
+esptool.py write_flash --flash_size detect 0x00 retro-go_1.39-pre-dirty_odroid-go.img
 
 Info:
 $  esptool.py chip_id
