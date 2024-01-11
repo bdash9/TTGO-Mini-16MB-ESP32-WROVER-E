@@ -17,7 +17,7 @@ X -ESP32 WROVER module with 16MB - just keeps rebooting
 
 To upload code in ArduinoIDE:
 
-Had to set Upload speed to 115200
+**Had to set Upload speed to 115200**
 
 Also had to set 115200 for Serial monitor
 
