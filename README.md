@@ -8,9 +8,11 @@ https://github.com/LilyGO/TTGO-T7-Demo
 
 Tried boards in arduinoide:
 
+***Had to make my own board (see bottom of doc)
+
 ttgo-t7-v1.4-mini32 and small stuff loads but it wont let me select 16MB of FLASH (4MB max)
 
-ESP32 WROVER module with 16MB - just keeps rebooting
+X -ESP32 WROVER module with 16MB - just keeps rebooting
 
 
 To upload code in ArduinoIDE:
