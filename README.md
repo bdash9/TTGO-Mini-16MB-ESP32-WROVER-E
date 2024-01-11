@@ -177,4 +177,7 @@ ttgo-t7-v15-mini32.menu.EraseFlash.all.upload.erase_cmd=-e
 Restart ArduinoIDE app
 
 
+and :
+
+cp ./variants/ttgo-t7-v14-mini32/pins_arduino.h /Users/bdash/Library/Arduino15/packages/esp32/hardware/esp32/2.0.11/cores/esp32/
 
