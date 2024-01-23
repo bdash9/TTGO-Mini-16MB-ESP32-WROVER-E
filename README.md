@@ -51,7 +51,9 @@ MAC: 08:3a:8d:23:ae:94
 
 
 Tried adding a new board to ArduinIDE that coudl handle 16MB:
-vi /Users/bdash/Library/Arduino15//packages/esp32/hardware/esp32/2.0.11/boards.txt
+vi /Users/bdash/Library/Arduino15//packages/esp32/hardware/esp32/2.0.14/boards.txt
+Also did this in platformio:
+vi /Users/bdash/.platformio/packages/framework-arduinoespressif32/boards.txt
 
 Add:
 
