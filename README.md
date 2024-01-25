@@ -185,3 +185,25 @@ and :
 
 cp ./variants/ttgo-t7-v14-mini32/pins_arduino.h /Users/bdash/Library/Arduino15/packages/esp32/hardware/esp32/2.0.11/cores/esp32/
 
+
+
+****************
+
+
+Adafruit ST7796S_kbv oibrary:
+
+
+//This works on 4in ST7796 
+
+#include <Adafruit_GFX.h>    // Core graphics library
+#include "Adafruit_ST7796S_kbv.h"
+#include <SPI.h>
+#include "SD.h"
+
+
+#define TFT_RST 27
+#define TFT_DC 32
+#define TFT_CS 5
+Adafruit_ST7796S_kbv tft = Adafruit_ST7796S_kbv(TFT_CS, TFT_DC, TFT_RST);
+
+
