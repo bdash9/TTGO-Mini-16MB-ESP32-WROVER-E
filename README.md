@@ -190,7 +190,7 @@ cp ./variants/ttgo-t7-v14-mini32/pins_arduino.h /Users/bdash/Library/Arduino15/p
 ****************
 
 
-Adafruit ST7796S_kbv oibrary:
+Adafruit ST7796S_kbv library:
 
 
 //This works on 4in ST7796 
