@@ -207,3 +207,16 @@ Adafruit ST7796S_kbv library:
 Adafruit_ST7796S_kbv tft = Adafruit_ST7796S_kbv(TFT_CS, TFT_DC, TFT_RST);
 
 
+
+***************
+
+
+Arduino GFX on 4in- Works:
+
+#include <Arduino_GFX_Library.h>
+
+#define GFX_BL DF_GFX_BL // default backlight pin, you may replace DF_GFX_BL to actual backlight pin
+Arduino_DataBus *bus = new Arduino_ESP32SPI(32 /* DC */, 5 /* CS */, 18 /* SCK */, 23 /* MOSI */, GFX_NOT_DEFINED /* MISO */);
+Arduino_GFX *gfx = new Arduino_ST7796(bus, 27 /* RST */, 0 /* rotation */, true /* IPS */);
+
+
